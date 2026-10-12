@@ -22,6 +22,7 @@ def calculate_percentage(num1, num2):
     return (num1 / num2) * 100
 
 while True:
+    print("\nWelcome to the Python Calculator!")
     print("\nSelect an operation:")
     print("1. Add")
     print("2. Subtract")
@@ -54,6 +55,7 @@ while True:
         print(f"{number_1} is {result}% of {number_2}.")
     elif choice == 7:
         print("Exiting the calculator.")
+        print("Thank you for using the Python Calculator!")
         break
     else:
         print("Invalid input. Please try again.")
